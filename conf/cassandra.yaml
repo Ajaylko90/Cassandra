@@ -20,7 +20,7 @@ cluster_name: '{{ .ClusterName }}'
 # Specifying initial_token will override this setting on the node's initial start,
 # on subsequent starts, this setting will apply even if initial token is set.
 #
-# If you already have a cluster with 1 token per node, and wish to migrate to 
+# If you already  have a cluster with 1 token per node, and wish to migrate to 
 # multiple tokens per node, see http://wiki.apache.org/cassandra/Operations
 num_tokens: 256
 
