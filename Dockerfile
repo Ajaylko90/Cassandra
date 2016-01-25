@@ -1,5 +1,4 @@
 FROM       azul/zulu-openjdk:8
-MAINTAINER Al Tobey <atobey@datastax.com>
 
 VOLUME ["/data"]
 ENTRYPOINT ["/bin/cassandra-docker"]
